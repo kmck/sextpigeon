@@ -1,0 +1,9 @@
+.DS_Store
+*.log
+*.pyc
+*.swp
+*.bak
+/node_modules
+/db
+/blogtext
+/results
