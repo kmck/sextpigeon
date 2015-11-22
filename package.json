@@ -1,8 +1,11 @@
 {
   "name": "sextpigeon",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "Markov Chain Text Generator for Tumblr.",
   "main": "index.js",
+  "bin": {
+    "sextpigeon": "./bin/sextpigeon.js"
+  },
   "scripts": {
     "postinstall": "mkdir -p blogtext",
     "db": "mkdir -p db && mongod --dbpath=db --port 27017",
@@ -14,6 +17,7 @@
     "htmlstrip-native": "^0.1.3",
     "lodash": "^3.10.1",
     "markovchain": "0.0.7",
+    "minimist": "^1.2.0",
     "mongodb": "^2.0.45",
     "say": "^0.6.0",
     "tumblr.js": "0.0.5"

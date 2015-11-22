@@ -23,17 +23,17 @@ Just read the code and you'll figure it out, maybe. Here's some half-assed instr
 
 ### Scraping posts and writing the content to a text file
 
-    node . --scrape --processPosts --blogName=sexpigeon
+    sextpigeon --scrape --processPosts --blogName=sexpigeon --consumerKey='YOUR_KEY' --consumerSecret='YOUR_SECRET'
 
 ### Generating a sentence for a blog you've scraped and processed
 
-    node . --blogName=sexpigeon
+    sextpigeon --blogName=sexpigeon
 
 ### Make your console speak
 
-    node . --blogName=sexpigeon --sayIt
+    sextpigeon --blogName=sexpigeon --sayIt
 
 ### Make a bunch at once
 
-    node . --blogName=sexpigeon --generateSentences=20
+    sextpigeon --blogName=sexpigeon --generateSentences=20
 
